@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gold Horizon — Orbital Platforms & In-Orbit Services</title>
+    <meta name="description" content="Gold Horizon pioneers modular orbital platforms and in-orbit services for a sustainable space economy." />
+    
+    <!-- GitHub Pages Configuration -->
+    <link rel="canonical" href="https://ww.goldhorizon.org/" />
+    
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <canvas id="starfield" class="starfield" aria-hidden="true"></canvas>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="#home" aria-label="Gold Horizon">
+          <span class="logo" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" opacity="0.6"/>
+              <path d="M2 12a10 10 0 0020 0" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="17" cy="7" r="2" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="brand-text" data-i18n="brand">Gold Horizon</span>
+        </a>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero container reveal">
+        <h1 class="hero-title" data-i18n="hero.title">Building the orbital infrastructure of tomorrow</h1>
+        <div class="hero-cta">
+          <button class="btn" id="aboutTrigger">Learn more about <span class="btn-brand">Gold Horizon</span></button>
+        </div>
+      </section>
+    </main>
+
+    <div id="aboutModal" class="modal" aria-hidden="true">
+      <div class="modal-backdrop" data-modal-close="true"></div>
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="about-title">
+        <div class="modal-header">
+          <h2 id="about-title">About Gold Horizon</h2>
+          <button type="button" class="modal-close" id="aboutClose" aria-label="Close">×</button>
+        </div>
+        <div class="modal-body">
+          <p>Gold Horizon is focused on building the orbital infrastructure that future missions depend on.</p>
+          <p>We design and operate modular platforms that support in‑orbit assembly, refueling, inspection and repair, enabling long‑duration operations across Earth orbit and cislunar space.</p>
+          <p>Our approach emphasizes safety, interoperability and sustainability, working with partners to make space operations more resilient and responsible.</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-flex">
+          <div class="foot-brand">
+            <img src="./logo_no.webp" alt="Gold Horizon logo" class="foot-logo" />
+            <span>Gold Horizon</span>
+          </div>
+          <div class="foot-meta">© <span id="year"></span> Gold Horizon · <a href="mailto:admin@goldhorizon.org">admin@goldhorizon.org</a></div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
