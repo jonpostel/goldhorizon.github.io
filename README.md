@@ -26,7 +26,7 @@ We design and operate modular orbital platforms that accelerate space constructi
 Architecture, analysis, and mission integration for modular stations.
 
 ### On‑Orbit Assembly
-Autonomous truss build‑up and payload installation.
+Autonomous truss build-up and payload installation.
 
 ### Refueling & Logistics
 Depot operations, propellant transfer, and traffic coordination.
@@ -43,9 +43,9 @@ Remote inspection, anomaly resolution, and component upgrade.
 
 - **Autonomous Robotics**: Manipulators and vision for safe assembly and servicing
 - **Modular Truss Modules**: Reconfigurable structures enabling growth and maintenance
-- **Propellant Transfer Systems**: Standardized interfaces for cross‑mission refueling
-- **AI‑Assisted Operations**: Planning, monitoring, and anomaly detection at scale
-- **Radiation‑Hardened Avionics**: Reliable compute for long‑duration missions
+- **Propellant Transfer Systems**: Standardized interfaces for cross-mission refueling
+- **AI-Assisted Operations**: Planning, monitoring, and anomaly detection at scale
+- **Radiation-Hardened Avionics**: Reliable compute for long-duration missions
 
 ---
 
