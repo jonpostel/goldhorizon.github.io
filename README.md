@@ -1,6 +1,6 @@
 # Gold Horizon - Orbital Infrastructure
 
-![Gold Horizon Logo](logo_no.webp)
+![Gold Horizon Logo](m_gold.webp)
 
 ## Building the orbital infrastructure of tomorrow
 
